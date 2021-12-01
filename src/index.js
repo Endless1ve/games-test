@@ -6,11 +6,12 @@ import 'swiper/css/bundle';
 
  
 let swiper = new Swiper(".swiper", {
+  noSwiping: true,
+  allowTouchMove: false,
   slidesPerView: 3,
   spaceBetween: 30,
   loop: true,
   centeredSlides: true,
-  preventClicks: true,
   autoplay: {
     delay: 5000,
   },
