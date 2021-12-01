@@ -1,11 +1,13 @@
 {
   "name": "testgames",
   "version": "1.0.0",
+  "homepage": "https://github.com/Endless1ve/games-test",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "dev": "webpack-dev-server --mode development --open"
+    "dev": "webpack-dev-server --mode development --open",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Artem",
   "license": "ISC",
