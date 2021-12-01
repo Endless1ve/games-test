@@ -1,0 +1,7 @@
+.text__gradient{
+    background: rgb(237,237,162);
+    background: linear-gradient(90deg, rgba(237,237,162,1) 39%, rgba(252,227,181,1) 70%, rgba(255,145,0,1) 93%);
+    height: 2px;
+    width: 200px;
+    margin: 0 auto;
+}

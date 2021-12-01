@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href='<%=htmlWebpackPlugin.files.css %>'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Тестовое</title>
+  </head>
+  <body>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="<%=require('./images/firstPic.png')%>" alt="" class="slide__image"></div>
+              <div class="swiper-slide"><img src="<%=require('./images/secondPic.png')%>" alt="" class="slide__image fix"></div>
+              <div class="swiper-slide"><img src="<%=require('./images/thirdPic.png')%>" alt="" class="slide__image"></div>
+            </div>
+          </div>
+    <p class="slider__text">See product gallery</p>
+    <div class="text__gradient"></div>
+    <section class="content">
+        <div class="content__block">
+            <h2 class="block__title">Изогнутость 1000R</h2>
+            <p class="block__text">
+                Радиус кривизны в 1000R - это наибольший радиус кривизны у игровых мониторов.
+                Он дает несколько преимуществ: снижает нагрузку на глаза, уменьшает количество бликов,
+                увеличивает размеры воспринимаемого изображения и создает больший эффект погружения.
+                Окунитесь в виртуальные миры вокруг вас и получайте удовольствие от любимой игры и прекрасного обзора.
+            </p>
+        </div>
+        <img src="<%=require('./images/blockImage1.png')%>" alt="" class="content__image">
+        <div class="content__block">
+            <h2 class="block__title">165 HZ частота обновления</h2>
+            <p class="block__text">
+                Радиус кривизны в 1000R - это наибольший радиус кривизны у игровых мониторов.
+                Он дает несколько преимуществ: снижает нагрузку на глаза, уменьшает количество бликов,
+                увеличивает размеры воспринимаемого изображения и создает больший эффект погружения.
+                Окунитесь в виртуальные миры вокруг вас и получайте удовольствие от любимой игры и прекрасного обзора.
+            </p>
+        </div>
+        <img src="<%=require('./images/blockImage2.png')%>" alt="" class="content__image">
+    </section>
+  </body>
+ <script src="<%=htmlWebpackPlugin.files.js %>"></script>
+</html>

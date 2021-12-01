@@ -1,0 +1,8 @@
+@import './blocks/swiper/swiper.css';
+@import './blocks/slider__text/slider__text.css';
+@import './blocks/text__gradient/text__gradient.css';
+@import './blocks/content/content.css';
+
+body{
+    background: #2A2A2A;
+}

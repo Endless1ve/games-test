@@ -1,0 +1,13 @@
+.block__title{
+    font-size: 24px;
+    font-family: Montserrat;
+    line-height: 1.3em;
+    letter-spacing: .3em;
+    width: 40%;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 0 2px #d7d75b, 
+    0 2px 2px #d7d75b, 
+    -2px 0 2px #d7d75b, 
+    0 -2px 2px #d7d75b;
+}

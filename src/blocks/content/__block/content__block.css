@@ -1,0 +1,10 @@
+@import './__text/block__text.css';
+@import './__title/block__title.css';
+
+.content__block{
+    width: 50%;
+}
+
+.content__block:nth-child(3){
+    align-self: flex-end;
+}
